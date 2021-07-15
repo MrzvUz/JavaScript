@@ -45,3 +45,11 @@ multiple lines.
 
 
 
+// Regular expressions in JavaScript.
+var string1 = "This is the longest string ever"
+var regex = /this/; // Between forward slashes is called regular expressions.
+
+console.log( regex.test(string1) ); //console.log = prints out the output browser console.
+regex = /this/i;
+
+
